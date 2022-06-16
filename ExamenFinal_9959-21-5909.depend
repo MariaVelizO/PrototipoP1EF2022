@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1655401376 source:c:\users\maria\gitproyectos\examen final\examenfinal_9959-21-5909\main.cpp
+1655416697 source:c:\users\maria\gitproyectos\examen final\examenfinal_9959-21-5909\main.cpp
 	<iostream>
 	"Usuario.h"
 	"menu.h"
+	"Cines.h"
 	<ctime>
 	<vector>
 	<fstream>
@@ -14,7 +15,7 @@
 
 1655402182 c:\users\maria\gitproyectos\examen final\examenfinal_9959-21-5909\include\menu.h
 
-1655402709 source:c:\users\maria\gitproyectos\examen final\examenfinal_9959-21-5909\src\menu.cpp
+1655416385 source:c:\users\maria\gitproyectos\examen final\examenfinal_9959-21-5909\src\menu.cpp
 	"menu.h"
 	<iostream>
 	<conio.h>
@@ -31,4 +32,21 @@
 	<conio.h>
 	<iostream>
 	<string>
+
+1655416057 source:c:\users\maria\gitproyectos\examen final\examenfinal_9959-21-5909\src\cines.cpp
+	"Cines.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1655415997 c:\users\maria\gitproyectos\examen final\examenfinal_9959-21-5909\include\cines.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
 

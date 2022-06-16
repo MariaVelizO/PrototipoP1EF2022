@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Usuario.h"
 #include "menu.h"
+#include "Cines.h"
 using std::cout;
 using std::cerr;
 using std::cin;
@@ -41,7 +42,10 @@ int main(int argc, char *argv[])
     accesoUsuario=usuarioRegistrado.loginUsuario();
     if (accesoUsuario){menuG.menuGeneral();}
     system("cls");
+
     cout<<"** REGRESE PRONTO **";
+
     return 0;
+
 
 }

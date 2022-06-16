@@ -11,20 +11,21 @@ using namespace std;
 
 class Cines
 {
-
         public:
-            void menuCines();
-                void NumeroId();
-                void Nombre();
-                void Direccion();
-
-
-
+            void menu();
+                    void insert();
+                    void display();
+                    void modify();
+                    void search();
+                    void delet();
+            Cines();
             virtual ~Cines();
-
     protected:
         private:
+            std :: string id,name,direcc;
+
 
 };
+
 
 #endif // CINES_H
